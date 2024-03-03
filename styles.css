@@ -1,0 +1,1159 @@
+* { margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 400; box-sizing: border-box; }
+
+body, html { width: 100%; height: 100%; min-width: 320px; font-family: 'Montserrat', sans-serif; color: #1A1A1A; line-height: 1.5em; background-color: #EFEFEF; }
+
+img { max-width: 100%; border: none; }
+
+a { text-decoration: none; color: #1A1A1A; cursor: pointer; }
+
+b { font-weight: 700; }
+
+.clear { clear: both; }
+
+.pular { display: block; }
+
+.pulartopo { display: block; }
+
+.pulardobravalor { display: block; }
+
+.msgvert { margin: 0; position: absolute; width: 100%; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); }
+
+.imgcenter { display: block; margin: 0 auto; }
+
+.conteudo { max-width: 1024px; margin: 0 auto; }
+
+.primeiradobra {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #212121;
+	background-image: url("imagem/fundo-home.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	padding-bottom: 5%;
+}
+
+.imglogo {
+	padding: 1% 0 0 0;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+	max-width: 695px;
+	margin: 0 auto;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.conteudotexto {
+	margin: 1% 0;
+	line-height: 2em;
+}
+
+.conteudotexto h1 {
+	font-size: 1.8em;
+	font-weight: 700;
+	color: #FFD752;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 4px #000;
+}
+
+.conteudotexto h2 {
+	font-size: 1.6em;
+	font-weight: 700;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 4px #000;
+}
+
+.conteudotexto p {
+	font-size: 1.7em;
+	font-weight: 200;
+	color: #fff;
+	text-align: center;
+	text-shadow: 3px 3px 4px #000;
+	padding-bottom: 1.5%;
+}
+
+.fundomarcatexto {
+	background-image: url("imagem/marca-texto.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	font-weight: 400;
+	color: #fff;
+}
+
+.fundomarcatextomaior {
+	background-image: url("imagem/marca-texto-maior.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	font-weight: 400;
+	color: #fff;
+}
+
+p.conteudotextomenor {
+	padding-top: 0.8%;
+	font-size: 1em;
+	font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: none;
+}
+
+.boteos {
+	margin: auto;
+	text-align: center;
+}
+
+.botao {
+	display: inline-block;
+	margin: 1.5% 0 2% 0;
+	padding: 1.5% 5%;
+	background-color: #269442;
+	font-weight: 700;
+	font-size: 1.3em;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #1A1A1A;
+	cursor: pointer;
+	border-bottom: 5px #134a21 solid;
+	border-radius: 40px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-animation-name: bgslide;
+	-moz-animation-name: bgslide;
+	-o-animation-name: bgslide;
+	-ms-animation-name: bgslide;
+	animation-name: bgslide;
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+.botao:hover {
+	background-color: #134a21;
+	color: #fff;
+}
+
+.vantagens {
+	width: 100%;
+	height: auto;
+	display: table;
+	vertical-align: center;
+	background-color: #1A1A1A;
+	background-image: url("imagem/fundo-vantagens.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.vantagens h2 {
+	padding: 15% 0 0 0;
+	font-size: 2.6em;
+	font-weight: 900;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.conjvantagem {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.equal {
+	display: flex;
+	width: 100%;
+}
+
+.vantagem {
+	float: left;
+	width: 30%;
+	flex: 1;
+	text-align: center;
+	margin-top: 9%;
+	margin-bottom: 20%;
+	margin-left: 2%;
+	background-color: #EFEFEF;
+	border-radius: 20px;
+}
+
+.vantagem img {
+	margin-top: 8%;
+}
+
+.vantagem h3 {
+	font-size: 1.2em;
+	font-weight: 900;
+	padding: 2% 0;
+	text-transform: uppercase;
+}
+
+.vantagem p {
+	font-size: 1.1em;
+	padding: 4% 8% 15% 8%;
+	line-height: 1.3em;
+}
+
+.conteudodobra {
+	width: 100%;
+    height: auto;
+	overflow: auto;
+	padding-top: 6%;
+	padding-bottom: 10%;
+	background-color: #fff;
+}
+
+.fundocinza {
+	background-color: #333333;
+	background-image: url("imagem/fundo-dna-campeao.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.fundocinzamedio {
+	background-color: #FFD752;
+	background-image: url("imagem/fundo-reinaldo-dias.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	color: #191919;
+}
+
+.conteudodobra h2 {
+	padding: 6.5% 0 3% 0;
+	font-size: 2em;
+	font-weight: 900;
+	color: #ffbb00;
+	text-transform: uppercase;
+}
+
+.fundocinzamedio h2 {
+	color: #191919;
+}
+
+.conteudodobra p {
+	font-size: 1.24em;
+	font-weight: 400;
+	line-height: 1.4em;
+	padding-bottom: 6%;
+	color: #F2E8E0;
+}
+
+.fundocinzamedio p {
+	color: #191919;
+}
+
+.conteudodobra ul {
+	list-style: none;
+}
+
+.conteudodobra li {
+	font-size: 1.24em;
+	font-weight: 400;
+	line-height: 1.5em;
+	padding-bottom: 4%;
+	color: #F2E8E0;
+}
+
+.conteudodobra i {
+	margin-right: 1%;
+	color: #ffbb00;
+}
+
+.negritolaranja {
+	color: #ffbb00;
+}
+
+.conteudodobra img {
+	border-radius: 20px;
+	margin: 5% 0;
+}
+
+.conteudodobratextoesq {
+	float: left;
+	width: 52%;
+	margin-top: 5%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.conteudodobratextodir {
+	float: right;
+	width: 51%;
+	margin-top: 5%;
+}
+
+.conteudodobratextodir p {
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.5em;
+	padding-bottom: 6%;
+}
+
+.conteudodobraimgesq {
+	float: left;
+	width: 45%;
+	margin-top: 5%;
+}
+
+.conteudodobraimgdir {
+	float: right;
+	width: 45%;
+	margin-top: 5%;
+}
+
+.dobraacao {
+	position: relative;
+	width: 100%;
+	height: 90vh;
+	max-height: 900px;
+	background-color: #fff;
+	background-image: url("imagem/fundo-chamada.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("imagem/fundo-chamada.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.dobraacao h2 {
+	font-size: 2.8em;
+	font-weight: 900;
+	color: #ffbb00;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.dobraacao p {
+	font-size: 2.3em;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+.btnchamada {
+	margin-top: 3%;
+	padding: 1.2% 5%;
+	font-size: 1.4em;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.dobravalor {
+	width: 100%;
+    height: auto;
+	overflow: auto;
+	padding-top: 2%;
+	padding-bottom: 6%;
+	background-color: #ffbb00;
+}
+
+.dobravalor h2 {
+	font-size: 1.35em;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.15em;
+	padding: 6% 2%;
+}
+
+.dobravalorcont {
+	width: 70%;
+	height: auto;
+	overflow: auto;
+	margin: 0 auto;
+	background-color: #FFF;
+	border-radius: 20px;
+	margin-bottom: 3%;
+}
+
+.dobravalorcont img {
+	float: left;
+	padding: 2.5% 3.5% 3% 3.5%;
+}
+
+.valorriscado {
+	font-weight: 700;
+	text-decoration: line-through;
+	font-style: italic;
+	color: #FCBA00;
+}
+
+.valorriscadomaior {
+	font-weight: 700;
+	text-decoration: line-through;
+	font-style: italic;
+}
+
+.dobravalor h3 {
+	font-size: 1.18em;
+	font-weight: 700;
+	padding: 3.5% 5% 0 0;
+}
+
+.dobravalor p {
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 1% 4.5% 1% 0;
+}
+
+p.detalhesdoplano {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+.dobrapagamento {
+	width: 100%;
+    height: auto;
+	overflow: auto;
+	padding-top: 6%;
+	padding-bottom: 6%;	
+	background-color: #1A1A1A;
+	background-image: linear-gradient(to right, #1A1A1A, #444444);
+}
+
+.dobrapagamentoconteudo {
+	width: 70%;
+	height: auto;
+	overflow: auto;
+	margin: 0 auto;
+	padding: 8% 8% 12% 8%;
+	background-color: #FFF;
+	background-image: linear-gradient(#f7f7f7, #ffffff, #f7f7f7);
+	border-radius: 20px;
+	color: #262626;
+}
+
+.dobrapagamentoconteudo p {
+	font-size: 1.17em;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.15em;
+}
+
+p.valorriscadomaior {
+	margin-bottom: 11%;
+	font-size: 3.6em;
+	font-weight: 700;
+	text-decoration: line-through;
+	font-style: italic;
+	color: #ff6666;
+}
+
+p.dobrapagamentomedio {
+	margin-bottom: 18%;
+	font-size: 2.7em;
+	font-weight: 900;
+	line-height: 1.15em;
+}
+
+.vagasver {
+	font-size: 1.262em;
+	font-weight: 900;
+	color: #ff6666;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-animation-name: ultimasvagas;
+	-moz-animation-name: ultimasvagas;
+	-o-animation-name: ultimasvagas;
+	-ms-animation-name: ultimasvagas;
+	animation-name: ultimasvagas;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+p.adquira {
+	font-size: 2.1em;
+	font-weight: 400;
+	line-height: 1.15em;
+	margin-bottom: 22%;
+	color: #262626;
+}
+
+.diferenciado {
+	font-weight: 900;	
+}
+
+p.valorparcelado {
+	margin-bottom: 8%;
+	font-size: 4em;
+	font-weight: 900;
+	font-style: italic;
+	text-transform: none;
+	word-spacing: -10px;
+}
+
+.valorparceladomaior {
+	font-weight: 900;
+	font-size: 1.9em;
+	color: #15CD28;
+	font-style: italic;
+	word-spacing: 0;
+}
+
+p.notavalor {
+	font-size: 0.91em;
+	font-weight: 400;
+}
+
+.btnpgto {
+	margin-top: 10%;
+	padding: 3.5% 8%;
+	font-size: 1.35em;
+	color: #fff;
+}
+
+.dobraperguntas {
+	width: 100%;
+    height: auto;
+	overflow: auto;
+	padding-top: 2%;
+	padding-bottom: 6%;
+	background-color: #1A1A1A;
+}
+
+.dobraperguntas h2 {
+	font-size: 1.8em;
+	font-weight: 700;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.15em;
+	padding: 6% 2% 6% 2%;
+}
+
+.accordion {
+	width: 80%;
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 4%;
+	background-color: #F8F8F8;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.17em;
+	font-weight: 600;
+	text-align: left;
+	color: #1A1A1A;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+}
+
+.active, .accordion:hover {
+	background-color: #FFBE00;
+}
+
+.accordion:after {
+	content: '\002B';
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.17em;
+	font-weight: 600;
+	color: #1A1A1A;
+	float: right;
+	margin-left: 2%;
+}
+
+.active:after {
+	content: "\2212";
+}
+
+.panel {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0 4%;
+	background-color: #F8F8F8;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.17em;
+	font-weight: 400;
+	text-align: left;
+	color: #1A1A1A;
+	line-height: 1.5em;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.btnpgtoperguntas {
+	margin-top: 8%;
+	padding: 2.5% 7%;
+	font-size: 1.38em;
+	color: #fff;
+}
+
+.rodape {
+	width: 100%;
+    height: auto;
+	overflow: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;	
+	background-color: #1A1A1A;
+	background-image: linear-gradient(to right, #1A1A1A, #444444);
+	line-height: 1.2em;
+	color: #828282;
+	text-align: center;
+}
+
+.rodapeinfo {
+	padding: 1% 18%;
+	font-size: 0.8em;
+	font-weight: 400;
+}
+
+.destaquemarca {
+	font-weight: 700;
+}
+
+.creditos {
+	margin-top: 2%;
+	font-size: 0.8em;
+	color: #828282;
+}
+
+.creditos a {
+	font-family: 'Montserrat', sans-serif;
+	color: #828282;
+}
+
+.incodestudio {
+	color: #fff;
+}
+
+
+.devroda {
+	margin-top: 4%;
+}
+
+#botoes {
+    height: 70px;
+    position: fixed;
+    bottom: 2.5%;
+    right: 2.5%;
+	display: block;
+}
+
+#botoes a {
+	display: block;
+    width: 55px;
+	height: 55px;
+	margin-bottom: 8px;
+	padding-top: 11px;
+	text-align: center;
+	background-color: #01B75C;
+	background-image: linear-gradient(to bottom, #01B75C, #009249);
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	border-radius: 50%;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+#botoes a:hover {
+	background-color: #009249;
+	background-image: linear-gradient(to bottom, #009249, #009249);
+	transition: 0.3s;
+}
+
+/*===========  media queri ==========*/
+@media screen and (max-width: 1280px){
+	.primeiradobra { background-position: left bottom; }
+}
+
+@media screen and (max-width: 1180px){
+	.conjvantagem { padding-left: 5%; padding-right: 5%; }
+	.vantagem { margin-top: 9%; margin-bottom: 30%; }
+	.vantagens h2 { font-size: 2.5em; padding: 20% 0 0 0; }
+	.vantagem img { margin-top: 5%; }
+	.vantagem h3 { font-size: 1.18em; }
+	.vantagem p { font-size: 1.1em; padding: 5% 8% 10% 8%; line-height: 1.25em; }
+	.conteudodobra { padding-top: 10%; padding-bottom: 14%; }
+	.conteudodobra { padding-left: 5%; padding-right: 5%; }
+	.conteudodobra h2 { font-size: 2.6em; }
+	.conteudodobra p { font-size: 1.06em; }
+	.conteudodobra li { font-size: 1.06em; }
+	.dobraacao h2 { font-size: 2.8em; line-height: 1.9em; }
+	.dobraacao p { font-size: 1.8em; line-height: 1.2em; }
+	.btnchamada { margin-top: 4%; padding: 2% 5%; font-size: 1.35em; }
+	.dobravalor h2 { font-size: 1.3em; }
+}
+
+@media screen and (max-width: 1024px){
+	.conteudo { padding: 0 5%; }
+	.imglogo { padding: 2% 0 1.5% 0; }
+	p.conteudotextomenor { font-size: 1.04em; }
+	.botao { margin: 2% 0 6% 0; }
+	.conjvantagem { padding-left: 0; padding-right: 0; }
+	.dobraacao h2 { font-size: 2.4em; line-height: 1.5em; }
+	.dobraacao p { font-size: 1.4em; line-height: 1.18em; }
+	.btnchamada { margin-top: 3%; padding: 2% 5%; font-size: 1.35em; }
+	.dobravalorcont { width: 80%; }
+	.dobrapagamentoconteudo { width: 80%; }
+	.btnpgto { margin-top: 15%; }
+	.accordion { width: 90%; margin-top: 2.5%; margin-left: 5%; margin-right: 5%; }
+	.panel { width: 90%; margin-left: 5%; margin-right: 5%; }
+	.btnpgtoperguntas { margin-top: 8%; }
+	.pgpagamentoconteudo { width: 80%; padding: 12% 8% 18% 8%; }
+	.rodapeinfo { padding: 1% 12%; }
+	.pgrodapeinfo p { padding: 1% 12% 3% 12%; }
+}
+
+@media screen and (max-width: 980px){
+	.vantagens h2 { font-size: 2.2em; }
+	.vantagem img { margin-top: 3%; }
+	.vantagem h3 { font-size: 1.1em; padding: 1%; }
+	.vantagem p { font-size: 1em; padding: 2% 5% 10% 5%; line-height: 1.2em; }
+	.conteudodobra h2 { font-size: 2.8em; text-align: center; padding-bottom: 8%; }
+	.conteudodobra p { font-size: 1.25em; text-align: center; line-height: 1.4em; padding-bottom: 8%; }
+	.conteudodobra li {	font-size: 1.25em; padding-bottom: 6%; 	line-height: 1.4em; }
+	.conteudodobratextoesq { float: left; width: 100%; margin-top: 5%; padding: 0 10%; }
+	.conteudodobraimgdir { float: left; width: 100%; margin-top: 5%; padding: 0 10%; }
+	.conteudodobratextodir { float: right; width: 100%; margin-top: 5%; padding: 0 10%; }
+	.conteudodobraimgesq { float: left; width: 100%; margin-top: 5%; padding: 0 10%; }
+	.accordion { margin-top: 3.5% }
+	.rodape { padding-top: 4%; }
+	.rodapeinfo { padding: 1% 9%; }
+	.pgrodapeinfo p { padding: 0 9% 3% 9%; }
+}
+
+@media screen and (max-width: 870px){
+	.dobrapagamentoconteudo { width: 90%; }
+	p.detalhesdoplano { font-size: 0.8em; }
+}
+
+@media screen and (max-width: 860px){
+	.vantagens h2 { font-size: 2em; }
+	.vantagem img { margin-top: 2%; }
+	.vantagem h3 { font-size: 1em; padding: 0; }
+	.conteudodobratextoesq { float: left; width: 100%; margin-top: 5%; padding: 0 4%; }
+	.conteudodobraimgdir { float: left; width: 100%; margin-top: 3%; padding: 0 4%; }
+	.conteudodobratextodir { float: left; width: 100%; margin-top: 5%; padding: 0 4%; }
+	.conteudodobraimgesq { float: left; width: 100%; margin-top: 3%; padding: 0 4%; }
+	.dobravalorcont { width: 90%; }
+	.accordion { margin-top: 4.5% }
+	.pgpagamentoconteudo { width: 90%; padding: 16% 8% 20% 8%; }
+	.rodape { padding-top: 5%; }
+	.rodapeinfo { padding: 2% 6%; }
+	.pgrodapeinfo p { padding: 1% 6% 4% 6%; }
+}
+
+@media screen and (max-width: 768px){
+	.primeiradobra { background-image: url("imagem/resp/fundo-home.jpg"); }
+	.vantagens { background-image: url("imagem/resp/fundo-vantagens.jpg"); }
+	.dobraacao { background-image: url("imagem/resp/fundo-chamada.jpg"); }
+	.conteudotexto h1 { font-size: 1.7em; }
+	.conteudotexto h2 { font-size: 1.5em; }
+	.conteudotexto p { font-size: 1.45em; }
+	p.conteudotextomenor { font-size: 0.8em; padding-top: 1.5%}
+	.imglogo { padding: 2.5% 0 2% 0; }
+	.botao { margin: 3% 0 8% 0; font-size: 1.2em; }
+	.btnpgto { margin-top: 15%; }
+	.btnpgtoperguntas { margin-top: 8%; }
+	.equal { display: block; }
+	.vantagens { padding-bottom: 25%; }
+	.vantagem { width: 60%; margin: 5% 20%; }
+	.vantagens h2 { font-size: 1.9em; padding: 20% 0 10% 0; }
+	.vantagem img { margin-top: 8%; }
+	.vantagem h3 { font-size: 1.3em; }
+	.vantagem p { font-size: 1.2em; padding: 6% 10% 10% 10%; line-height: 1.3em; }
+	.conteudodobra h2 { font-size: 2.2em; }
+	.conteudodobra p { font-size: 1.2em; padding-bottom: 12%; }
+	.conteudodobra li {	font-size: 1.2em; padding-bottom: 8%; }
+	.dobraacao h2 { font-size: 2.4em; }
+	.dobraacao p { font-size: 1.6em; }
+	.btnchamada { margin-top: 4%; padding: 2% 5%; font-size: 1.35em; }
+	.dobravalor { padding-bottom: 15%; }
+	.dobravalor h2 { font-size: 1.2em; padding: 15% 2% 10% 2%; }
+	.dobravalor h3 { font-size: 1.15em; }
+	.dobravalor p { font-size: 1em; }
+	p.detalhesdoplano { font-size: 0.8em; padding: 0 20% }	
+	.dobrapagamento { padding-top: 20%; padding-bottom: 20%; }
+	.dobrapagamentoconteudo { padding: 20% 7% 20% 7%; }
+	.dobrapagamentoconteudo p {	font-size: 1.1em; }
+	p.valorriscadomaior { font-size: 3.2em; }
+	p.dobrapagamentomedio { font-size: 2.4em; margin-bottom: 20% }
+	p.adquira { font-size: 1.85em; }
+	p.valorparcelado { font-size: 3.8em; }
+	.valorparceladomaior { font-size: 1.8em; }
+	p.notavalor { font-size: 0.85em; }
+	.btnpgto { margin-top: 3%; padding: 3.5% 8%; font-size: 1.2em; }
+	.dobraperguntas { padding-top: 14%; padding-bottom: 16%; }
+	.rodapeinfo { padding: 1% 4%; }
+	.pgrodapeinfo p { padding: 1% 4% 5% 4%; }
+	.creditos { margin-top: 4%; }
+}
+
+@media screen and (max-width: 680px){
+	.conteudotexto { line-height: 2.1em; }
+	.conteudotexto h1 { font-size: 1.9em; }
+	.conteudotexto h2 { font-size: 1.7em; }
+	p.conteudotextomenor { font-size: 1.1em; line-height: 0.7em; padding-top: 3%; }
+	.imglogo { padding: 3.5% 0 3% 0; }
+	.pulartopo { display: inline; }
+	.pulartopomenor { display: block; }
+	.sumirtopo { display: none; }
+	.botao { margin: 8% 0 12% 0; font-size: 1.3em; }
+	.vantagem { width: 70%; margin: 5% 15%; }
+	.dobraacao h2 { font-size: 2.3em; }
+	.dobraacao p { font-size: 1.5em; }
+	.btnchamada { margin-top: 4%; padding: 2% 5%; font-size: 1.3em; }
+	.dobravalor h2 { font-size: 1.05em; }
+	.dobravalor h3 { font-size: 1em; }
+	.dobravalor p { font-size: 0.85em; }
+	.dobravalorcont img { padding: 3% 2%; }
+	.dobrapagamentoconteudo { width: 100%; }
+	.dobrapagamentoconteudo p {	font-size: 1em; }
+	p.valorriscadomaior { font-size: 3em; }
+	p.dobrapagamentomedio { font-size: 2.25em; }
+	p.adquira { font-size: 1.75em; }
+	p.valorparcelado { font-size: 3.8em; }
+	.valorparceladomaior { font-size: 1.8em; }
+	p.notavalor { font-size: 0.84em; }
+	.btnpgto { margin-top: 4%; padding: 3.5% 8%; font-size: 1.1em; }
+	.dobraperguntas h2 { font-size: 1.6em; }
+	.accordion { width: 100%; margin-left: 0; margin-right: 0; font-size: 1.1em; }
+	.panel { width: 100%; margin-left: 0; margin-right: 0; font-size: 1.1em; }
+	.btnpgtoperguntas { margin-top: 12%; padding: 2.5% 7%; font-size: 1.3em; }
+	.pgpagamentoconteudo { width: 100%; padding: 18% 8% 22% 8%; }
+	.pgpagamentologo { padding-top: 6%; padding-bottom: 7%; }
+	.buttonorcamento { margin-top: 5%; margin-bottom: 5%; }
+	.rodapeinfo { padding: 1% 2%; }
+	.pgrodapeinfo p { padding: 1% 2% 4% 2%; }
+	.devroda { margin-top: 6%; }
+}
+
+@media screen and (max-width: 590px){
+	.conteudotexto h1 { font-size: 1.9em; }
+	.conteudotexto h2 { font-size: 1.5em; }
+	.conteudotexto p { font-size: 1.1em; line-height: 1.4em; text-transform: uppercase; }
+	p.conteudotextomenor { font-size: 1em; line-height: 0.75em; }
+	.imglogo { padding: 8% 0 6% 0; }
+	.imgtopo { padding: 6% 1%; }
+	.botao { margin: 12% 0 16% 0; font-size: 1.1em; }
+	.vantagens { padding-bottom: 30%; }
+	.vantagem { width: 80%; margin: 5% 10%; }
+	.vantagens h2 { padding: 25% 0 15% 0;  }
+	.vantagem img { margin-top: 6%; }
+	.vantagem p { padding: 5% 8% 10% 8%; }
+	.dobraacao h2 { font-size: 2.3em; }
+	.dobraacao p { font-size: 1.5em; }
+	.btnchamada { margin-top: 4%; padding: 2% 5%; font-size: 1.3em; }
+	.dobraacao h2 { font-size: 2.1em; line-height: 2.1em; }
+	.dobraacao p { font-size: 1.3em; line-height: 1.5em; }
+	.btnchamada { margin-top: 5%; padding: 2% 5%; font-size: 1.2em; }
+	.dobravalor h2 { font-size: 1em; }
+	.dobravalor h3 { font-size: 1em; }
+	.dobravalor p { font-size: 0.85em; }
+	.dobravalorcont img { padding: 3% 1.5%; }
+	.btnpgto { margin-top: 4%; }
+	.dobraperguntas h2 { font-size: 1.5em; }
+	.accordion { font-size: 1em; }
+	.panel { font-size: 1em; }
+	.btnpgtoperguntas { margin-top: 16%; padding: 2.5% 7%; font-size: 1.3em; }
+}
+
+@media screen and (max-width: 560px){
+	.dobrapagamentoconteudo p {	font-size: 0.9em; }
+	p.valorriscadomaior { font-size: 2.7em; }
+	p.dobrapagamentomedio { font-size: 1.9em; }
+	p.valoravistapixomaior { font-size: 4.8em; }
+	p.valornopixmenor { font-size: 1.8em; }
+	p.valornopix { font-size: 2.8em; }
+	.valorparceladomaior { font-size: 1.2em; }
+	p.adquira { font-size: 1.5em; }
+	p.valorparcelado { font-size: 3.2em; }
+	.valorparceladomaior { font-size: 1.5em; }
+	p.notavalor { font-size: 0.65em; }
+	.btnpgto { margin-top: 5%; padding: 3.5% 8%; font-size: 1.08em; }
+}
+
+
+@media screen and (max-width: 540px){
+	.conteudotexto h1 { font-size: 1.75em; }
+	.conteudotexto h2 { font-size: 1.45em; }
+	.conteudotexto p { font-size: 1.05em; }
+	.imglogo { padding: 10% 0 8% 0; }
+	.imgtopo { padding: 8% 0; }
+	.botao { margin: 14% 0 18% 0; font-size: 1em; }
+	.vantagens { padding-bottom: 35%; }
+	.vantagem { width: 90%; margin: 8% 5%; }
+	.vantagens h2 { font-size: 1.8em; padding: 25% 0 15% 0;  }
+	.vantagem img { margin-top: 8%; }
+	.vantagem p { padding: 5% 8% 12% 8%; }
+	.conteudodobratextoesq { padding: 0; }
+	.conteudodobraimgdir { padding: 0; }
+	.conteudodobratextodir { padding: 0; }
+	.conteudodobraimgesq { padding: 0; }
+	.conteudodobra h2 { font-size: 2em; }
+	.conteudodobra p { text-align: left; }
+	.dobraacao h2 { font-size: 2em; }
+	.dobraacao p { font-size: 1.25em; }
+	.btnchamada { margin-top: 5%; padding: 2% 5%; font-size: 1.1em; }
+	.dobravalorcont { width: 100%; margin-bottom: 8%; }
+	.dobravalorcont img { width: 20%; padding: 4% 1%; }
+	.dobravalor { padding: 0 1% 20% 0; }
+	.pulardobravalor { display: inline; }	
+	.dobravalor h3 { padding: 3% 5% 0 0; line-height: 1.2em; }
+	.dobravalor h2 { padding: 20% 2% 15% 2%; }
+	.dobravalor p { line-height: 1.2em; }
+	.btnpgto { margin-top: 5%; }
+	.btnpgtoperguntas { margin-top: 18%; padding: 2.5% 7%; font-size: 1.3em; }
+	.rodapeinfo { padding: 1%; font-size: 0.7em; line-height: 1.3em; }
+	.creditos { font-size: 0.7em; line-height: 1.3em; }
+	.pgrodapeinfo p { padding: 1% 0 5% 0; font-size: 0.7em; line-height: 1.3em; }
+	.pgcreditos p { font-size: 0.7em; line-height: 1.3em; }
+	.devroda { margin-top: 8%; }
+	.pgpagamentologo { width: 34%; padding-top: 6%; padding-bottom: 6%; }
+	.pgpagamentoconteudo p { font-size: 1.45em; }
+	.pgpagamentoconteudo b { font-size: 1.1em; }
+	p.pgparcelado { font-size: 2.4em; }
+	.buttonorcamento { font-size: 1.15em; }
+}
+
+@media screen and (max-width: 495px){
+	.conteudotexto h1 { font-size: 1.7em; }
+	.conteudotexto h2 { font-size: 1.3em; }
+	.conteudotexto p { font-size: 1.25em; }
+	p.conteudotextomenor { font-size: 1em; line-height: 0.75em; }
+	.vantagens h2 { font-size: 1.7em; }	
+	.dobraacao h2 { font-size: 1.8em; }
+	.dobraacao p { font-size: 1.15em; }
+	.btnchamada { font-size: 1.05em; }
+	.buttonorcamento { font-size: 1.05em; }
+}
+
+@media screen and (max-width: 480px){
+	.dobrapagamentoconteudo p {	font-size: 0.85em; }
+	p.valorriscadomaior { font-size: 2.5em; }
+	p.dobrapagamentomedio { font-size: 1.8em; }
+	.valorparceladomaior { font-size: 1.1em; }
+	p.adquira { font-size: 1.4em; }
+	p.valorparcelado { font-size: 3.1em; }
+	.valorparceladomaior { font-size: 1.4em; }
+	p.notavalor { font-size: 0.6em; }
+	.btnpgto { margin-top: 5%; padding: 3.5% 8%; font-size: 0.9em; }
+}
+
+@media screen and (max-width: 450px){
+	.conteudotexto h1 { font-size: 1.5em; }
+	.conteudotexto h2 { font-size: 1.2em; }
+	.conteudotexto p { font-size: 1.2em; line-height: 1.3em; }
+	p.conteudotextomenor { font-size: 0.9em; line-height: 0.75em; }
+	.vantagens h2 { font-size: 1.6em; }
+	.vantagem h3 { font-size: 1.2em; }
+	.vantagem p { font-size: 1.05em; padding: 5% 8% 12% 8%; }
+	.conteudodobra h2 { font-size: 2em; }
+	.conteudodobra p { font-size: 1.18em; }
+	.conteudodobra li {	font-size: 1.18em; }
+	p.reiresp { font-size: 1em; font-weight: 600; }
+	.dobraacao h2 { font-size: 1.6em; }
+	.dobraacao p { font-size: 1.1em; }
+	.btnchamada { font-size: 1.02em; }
+	.dobravalorcont img { padding: 6% 1%; }
+	.dobraperguntas h2 { font-size: 1.4em; }
+	.accordion { font-size: 0.9em; }
+	.panel { font-size: 0.9em; }
+	.btnpgtoperguntas { margin-top: 18%; padding: 2.5% 7%; font-size: 1.1em; }
+	.pgpagamentoconteudo p { font-size: 1.2em; }
+	.pgpagamentoconteudo b { font-size: 1.05em; }
+	p.pgparcelado { font-size: 2.2em; }
+	.buttonorcamento { font-size: 1em; padding: 15px 20px; }
+}
+
+@media screen and (max-width: 440px){
+	.dobrapagamentoconteudo p {	font-size: 0.8em; }
+	p.valorriscadomaior { font-size: 2em; }
+	p.dobrapagamentomedio { font-size: 1.4em; }
+	.valorparceladomaior { font-size: 1em; }
+	p.adquira { font-size: 1.1em; }
+	p.valorparcelado { font-size: 3.1em; }
+	.valorparceladomaior { font-size: 1.2em; }
+	p.notavalor { font-size: 0.5em; }
+	.btnpgto { margin-top: 5%; font-size: 0.8em; }
+}
+
+@media screen and (max-width: 420px){
+	.conteudotexto h1 { font-size: 1.4em; }
+	.conteudotexto h2 { font-size: 1.12em; }
+	.conteudotexto p { font-size: 1.1em; }
+	p.conteudotextomenor { font-size: 0.85em; line-height: 0.75em; }
+	.imglogo { padding: 12% 0 10% 0; }
+	.imgtopo { padding: 10% 0; }
+	.botao { margin: 16% 0 20% 0; }
+	.vantagens h2 { font-size: 1.5em; }
+	.vantagem img { margin-top: 4%; }
+	.vantagem h3 { font-size: 1.05em; }
+	.vantagem p { font-size: 1.01em; }
+	.conteudodobra h2 { font-size: 1.6em; }
+	.conteudodobra p { font-size: 1.1em; }
+	.conteudodobra li {	font-size: 1.1em; }
+	.dobraacao h2 { font-size: 1.5em; }
+	.dobraacao p { font-size: 1em; }
+	.btnchamada { font-size: 1em; margin-top: 5%; padding: 2% 5%; }
+	.btnpgto { margin-top: 5%; }
+	.dobravalorcont img { padding: 8% 1%; }
+	.pgpagamentopix { padding: 7% 8% 24% 8%; }
+}
+
+@media screen and (max-width: 400px){
+	.dobravalorcont img { padding: 9% 1%; }
+	.pgpagamentoconteudo p { font-size: 1.1em; }
+	.pgpagamentoconteudo b { font-size: 1.05em; }
+	p.pgparcelado { font-size: 2.1em; }
+	.buttonorcamento { font-size: 0.9em; padding: 12px 18px; }
+}
+
+@media screen and (max-width: 380px){
+	.conteudotexto { line-height: 1.7em; }
+	.conteudotexto h1 { font-size: 1.3em; }
+	.conteudotexto h2 { font-size: 1em; }
+	.conteudotexto p { font-size: 0.95em; line-height: 1.3em; }
+	p.conteudotextomenor { font-size: 0.8em; line-height: 0.75em; }
+	.imglogo { padding: 13% 0 11% 0; }
+	.imgtopo { padding: 11% 0; }
+	.botao { margin: 17% 0 21% 0; }
+	.vantagens h2 { font-size: 1.5em; }
+	.vantagem img { margin-top: 2%; }
+	.vantagem h3 { font-size: 1em; }
+	.vantagem p { font-size: 1em; padding: 2% 7% 9% 7%; }
+	.conteudodobra h2 { font-size: 1.5em; }
+	.conteudodobra p { font-size: 1em; }
+	.conteudodobra li {	font-size: 1em; }
+	.dobraacao h2 { font-size: 1.4em; }
+	.dobraacao p { font-size: 0.85em; font-weight: 600; }
+	.btnchamada { font-size: 1em; margin-top: 5%; padding: 2% 5%; }
+	.dobravalorcont img { padding: 10.5% 1%; }
+	.dobravalor h2 { font-size: 0.95em; }
+	.dobravalor h3 { font-size: 0.8em; padding: 5% 5% 0 0; }
+	.dobraperguntas h2 { font-size: 1.2em; }
+	.accordion { font-size: 0.85em; }
+	.panel { font-size: 0.85em; }
+	.btnpgtoperguntas { margin-top: 20%; padding: 2.5% 7%; font-size: 0.9em; }
+	.pgpagamentoconteudo p { font-size: 1.05em; }
+	.pgpagamentoconteudo b { font-size: 1.05em; }
+	p.pgparcelado { font-size: 2em; }
+	.btnpgto { margin-top: 5%; font-size: 0.7em; }
+}
+
+@media screen and (max-width: 360px){
+	.buttonorcamento { font-size: 0.85em; padding: 10px 15px; }
+}
+
+@media screen and (max-width: 340px){
+	.conteudotexto h1 { font-size: 1.25em; }
+	.conteudotexto h2 { font-size: 0.96em; }
+	.conteudotexto p { font-size: 0.955em; line-height: 1.3em; }
+	p.conteudotextomenor { font-size: 0.7em; line-height: 0.75em; }	
+	.botao { font-size: 0.9em; }
+	.vantagens h2 { font-size: 1.4em; }
+	.conteudodobra h2 { font-size: 1.4em; }
+	.dobraacao h2 { font-size: 1.3em; }
+	.dobraacao p { font-size: 0.8em; font-weight: 600; }
+	.btnchamada { font-size: 0.9em; }
+	.dobravalor h3 { font-size: 0.8em; padding: 4% 5% 0 0; }
+	.pgpagamentoconteudo p { font-size: 1em; }
+	.pgpagamentoconteudo b { font-size: 1.05em; }
+	p.pgparcelado { font-size: 1.7em; }
+	.buttonorcamento { font-size: 0.8em; padding: 8px 13px; }
+}
+
+@media screen and (max-width: 340px){
+	.dobrapagamentoconteudo p {	font-size: 0.7em; }
+	p.valorriscadomaior { font-size: 1.8em; }
+	p.dobrapagamentomedio { font-size: 1.2em; }
+	.valorparceladomaior { font-size: 1em; }
+	p.adquira { font-size: 0.94em; }
+	p.valorparcelado { font-size: 2em; }
+	.valorparceladomaior { font-size: 1.7em; }
+	p.notavalor { font-size: 0.4em; }
+	.btnpgto { margin-top: 5%; font-size: 0.6em; }
+}
+
+@media screen and (max-width: 330px){
+	.conteudotexto h1 { font-size: 1.23em; }
+	.conteudotexto h2 { font-size: 0.93em; }
+	.conteudotexto p { font-size: 0.95em; line-height: 1.3em; }
+	p.conteudotextomenor { font-size: 0.7em; line-height: 0.75em; }	
+}
+
+/*=========== Animacoes CSS3  ==========*/ 
+@keyframes bgslide{
+  0% { 	background-color: #26AB25; border-bottom: 5px #1e881d solid; }
+  65% { background-color: #1e881d; border-bottom: 5px #1a7719 solid; }
+  100% { background-color: #26AB25; border-bottom: 5px #1e881d solid; }
+}
+
+@keyframes ultimasvagas{
+  0% { 	color: #ff0000; }
+  65% { color: #ffe0e0; }
+  100% { color: #ff0000; }
+}
+
+@keyframes qtdplppisca{
+  0% { 	color: #1A1A1A; }
+  65% { color: #474747; }
+  100% { color: #1A1A1A; }
+}
